@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 23 11:04:07 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>154 seconds (154014 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.Test2.demo()'><b>demo</b><br>Test class: testng.Test2<br/>
+<a href="#Output-1977310713" onClick='toggleBox("Output-1977310713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1977310713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1977310713">
+hello<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test2@43195e57</td></tr>
+<tr>
+<td title='testng.Test2.demo()'><b>demo</b><br>Test class: testng.Test2<br/>
+<a href="#Output-868815265" onClick='toggleBox("Output-868815265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-868815265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-868815265">
+hello<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test2@43195e57</td></tr>
+<tr>
+<td title='testng.Test0.demo()'><b>demo</b><br>Test class: testng.Test0<br/>
+<a href="#Output-1665620686" onClick='toggleBox("Output-1665620686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1665620686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1665620686">
+hello java<br/>
+Hello selenium<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test0@50eac852</td></tr>
+<tr>
+<td title='testng.Test2.demo()'><b>demo</b><br>Test class: testng.Test2<br/>
+<a href="#Output-1886491834" onClick='toggleBox("Output-1886491834", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1886491834" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1886491834">
+hello<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test2@43195e57</td></tr>
+<tr>
+<td title='testng.Test3.tc1()'><b>tc1</b><br>Test class: testng.Test3<br/>
+<a href="#Output-453007883" onClick='toggleBox("Output-453007883", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-453007883" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-453007883">
+Facebook – log in or sign up<br/>
+https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ1NTk0NTYzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testng.Test3@359f7cdf</td></tr>
+<tr>
+<td title='testng.Test2.demo()'><b>demo</b><br>Test class: testng.Test2<br/>
+<a href="#Output-1708169732" onClick='toggleBox("Output-1708169732", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1708169732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1708169732">
+hello<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test2@43195e57</td></tr>
+<tr>
+<td title='testng.Test1.calls()'><b>calls</b><br>Test class: testng.Test1<br/>
+<a href="#Output-689745064" onClick='toggleBox("Output-689745064", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-689745064" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-689745064">
+calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test1@333291e3</td></tr>
+<tr>
+<td title='testng.Test2.demo()'><b>demo</b><br>Test class: testng.Test2<br/>
+<a href="#Output-294658058" onClick='toggleBox("Output-294658058", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-294658058" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294658058">
+hello<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test2@43195e57</td></tr>
+<tr>
+<td title='testng.Test1.calls()'><b>calls</b><br>Test class: testng.Test1<br/>
+<a href="#Output-945722724" onClick='toggleBox("Output-945722724", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-945722724" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-945722724">
+calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test1@333291e3</td></tr>
+<tr>
+<td title='testng.Test1.chats()'><b>chats</b><br>Test class: testng.Test1<br/>
+<a href="#Output-1169474473" onClick='toggleBox("Output-1169474473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1169474473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1169474473">
+chats<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test1@333291e3</td></tr>
+<tr>
+<td title='testng.Test1.calls()'><b>calls</b><br>Test class: testng.Test1<br/>
+<a href="#Output-966544353" onClick='toggleBox("Output-966544353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-966544353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-966544353">
+calls<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testng.Test1@333291e3</td></tr>
+<tr>
+<td title='testng.Test4.tc3()'><b>tc3</b><br>Test class: testng.Test4<br/>
+<a href="#Output-657998502" onClick='toggleBox("Output-657998502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-657998502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-657998502">
+https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form<br/>
+Log in to Facebook<br/>
+</div>
+</td>
+<td></td>
+<td>91</td>
+<td>testng.Test4@6e171cd7</td></tr>
+</table><p>
+</body>
+</html>

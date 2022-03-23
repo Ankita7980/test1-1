@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.crm.autodesk.OrganisationTest.CreateCompaignTest">
+        <methods>
+          <include name="at"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="createCompaignTest"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="regionalRegressionTesting"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.OrganisationTest.CreateCompaignTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

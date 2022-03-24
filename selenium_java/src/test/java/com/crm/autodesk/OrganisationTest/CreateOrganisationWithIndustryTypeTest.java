@@ -31,7 +31,7 @@ public class CreateOrganisationWithIndustryTypeTest extends BaseClass {
 	         
 	         CreatingNewOrganizationpage create=new CreatingNewOrganizationpage(driver);
 	         create.createOrganisation(orgname, "Banking");
-	         Assert.fail();
+	        
 	         
 	         OrganizationInformationPgae org=new OrganizationInformationPgae(driver);
 	         String expectedorganisationtest = org.getorganisationText();
